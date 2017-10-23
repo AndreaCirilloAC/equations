@@ -1,0 +1,159 @@
+---
+title: "equations"
+author: "Andrea Cirillo"
+date: "8/8/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## chapter 6
+
+$$
+variance = {\displaystyle \operatorname {Var} (X)={\frac {1}{n}}\sum _{i=1}^{n}(x_{i}-\mu )^{2}}
+$$
+
+
+$$
+standard \quad deviation = \sqrt{variance}
+$$
+$$
+interquartile \quad range = third \quad quartile - first \quad quartile
+$$
+
+
+$$
+skewness = \frac{(q_3 - q_2)-(q_2 - q_1)}{q_3 - q_1} 
+$$
+## pearson coefficient
+
+$$
+\rho _{X,Y}={\frac {\operatorname {cov} (X,Y)}{\sigma _{X}\sigma _{Y}}}
+$$
+
+$$
+cov(X,Y) = \frac{\sum^n_{i=1} (x_i - \mu_X)(y_i -  \mu_y)}{(n-1)}
+$$
+## distance correlation
+
+$$
+\operatorname {dCor}(X,Y)={\frac  {\operatorname {dCov}(X,Y)}{{\sqrt  {\operatorname {dVar}(X)\,\operatorname {dVar}(Y)}}}}
+$$
+## mean
+
+$$
+mean = \frac{\sum^n_{i =1}x_i}{n}
+$$
+
+# chapter 7
+
+$$
+Y = f(x_1, x_2 ... x_n)+ \epsilon
+$$
+
+$$
+v_t =  at
+$$
+
+$$
+y_i = \beta_0 + \beta_1*x_i
+$$
+$$
+{\displaystyle d={\sum _{t=2}^{T}(e_{t}-e_{t-1})^{2} \over {\sum _{t=1}^{T}e_{t}^{2}}}}
+$$
+
+$$
+{\displaystyle RSS=\sum _{i=1}^{n}(y_{i}-f(x_{i}))^{2}}
+$$
+
+
+$$
+{\displaystyle {\begin{aligned}{\hat {\beta_0 }}&={\bar {y}}-{\hat {\beta_1 }}\,{\bar {x}},\\{\hat {\beta_1 }}&={\frac {\sum _{i=1}^{n}(x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}{\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}}}\\[6pt]\\[6pt]\end{aligned}}}
+$$
+$$
+y_i = \beta_0 + \beta_1*x_{1i} +\beta_2*x_{2i}+...+\beta_n*x_{ni}
+$$
+$$
+1 + \sum_{m = 0}^{n-1} = 1+ \frac{p(p+1)}{2}
+$$
+$$
+Z_{1} = \phi_{i1}(x_i-\hat x) + \phi_{j1}(x_j - \hat x)
+$$
+
+
+$$
+VIF_k = \frac{1}{1-R^2} = \frac {1}{tolerance}
+$$
+$$
+e = y_i - \hat y_i
+$$
+mean squared error
+
+$$
+MSE = \frac{1}{n} \sum e^2 = \frac{1}{n} \sum ( y_i - \hat y_i)^2
+$$
+
+r-squared
+$$
+r-squared = 1- \frac{TSSE}{TSS}
+$$
+
+total sum of squares
+
+$$
+TSS=\sum _{{i=1}}^{n}(y_{i}-\overline {y})^{2}
+$$
+
+
+accuracy
+
+$$
+accuracy = \frac{true\quad positive + true\quad negative}{total\quad number\quad of\quad prediction}
+$$
+
+
+sensitivity
+
+$$
+sensitivity = \frac{true\quad positive}{real\quad positive} = \frac{true\quad positive}{true\quad positive + false\quad negative}
+$$
+
+
+$$
+specificity = \frac{true\quad negative}{real\quad negative} = \frac{true \quad negative}{true\quad negative + false \quad negative}
+$$
+## logistic function
+
+$$
+f(x) = \frac{e^x}{1+ e^{x}}
+$$
+
+$$
+f(x) = \frac{e^{\beta_0 + \beta_1x}}{1+ e^{\beta_0 + \beta_1x}}
+$$
+$$
+{\displaystyle {\mathcal {L}}(\theta \mid x)=p_{\theta }(x)=P_{\theta }(X=x)}
+$$
+$$
+\frac{p}{1-p}
+$$
+$$
+e^{\beta_0 + \beta_1x}
+$$
+$$
+log(e^{\beta_0 + \beta_1x}) = \beta_0 + \beta_1x 
+$$
+$$
+log(e^{\beta_0 + \beta_1x}) = \beta_0 + \beta_1x 
+$$
+$$
+{\displaystyle \mathrm {AIC} =2k-2\ln({\hat {L}})}
+$$
+
+## iid assumption
+
+$$
+(X_i,y_i)\quad independent\quad of \quad(X_j,y_j), \forall i \neq j \in \{1,...,N\}
+$$
