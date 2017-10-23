@@ -157,3 +157,7 @@ $$
 $$
 (X_i,y_i)\quad independent\quad of \quad(X_j,y_j), \forall i \neq j \in \{1,...,N\}
 $$
+
+$$
+(X_i) \sim P(X), \forall i = 1,...,N
+$$
