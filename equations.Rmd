@@ -161,3 +161,9 @@ $$
 $$
 (X_i) \sim P(X), \forall i = 1,...,N
 $$
+
+gini index
+
+$$
+G = \sum_{k=1}^{K} \hat pmk(1- pmk)
+$$
