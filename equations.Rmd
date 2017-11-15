@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## chapter 6
 
 $$
-variance = {\displaystyle \operatorname {Var} (X)={\frac {1}{n}}\sum _{i=1}^{n}(x_{i}-\mu )^{2}}
+variance = {\displaystyle \operatorname {Var} (X)={\frac {\sum _{i=1}^{n}(x_{i}-\overline{x} )^{2}}{n-1}}}
 $$
 
 
@@ -34,7 +34,7 @@ $$
 $$
 
 $$
-cov(X,Y) = \frac{\sum^n_{i=1} (x_i - \mu_X)(y_i -  \mu_y)}{(n-1)}
+cov(X,Y) = \frac{\sum^n_{i=1} (x_i - \overline(x))(y_i -  \overline(y))}{(n-1)}
 $$
 ## distance correlation
 
